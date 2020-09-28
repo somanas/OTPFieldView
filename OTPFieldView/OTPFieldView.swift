@@ -142,7 +142,8 @@ import UIKit
         // Set the border values if needed
         otpField.otpBorderColor = defaultBorderColor
         otpField.otpBorderWidth = fieldBorderWidth
-        
+        otpField.textColor = UIColor.white
+
         if requireCursor {
             otpField.tintColor = cursorColor
         }

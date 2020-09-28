@@ -142,7 +142,6 @@ import UIKit
         // Set the border values if needed
         otpField.otpBorderColor = defaultBorderColor
         otpField.otpBorderWidth = fieldBorderWidth
-        otpField.textColor = UIColor.white
 
         if requireCursor {
             otpField.tintColor = cursorColor
@@ -153,7 +152,8 @@ import UIKit
         
         // Set the default background color when text not set
         otpField.backgroundColor = defaultBackgroundColor
-        
+        otpField.textColor = UIColor.white
+
         // Finally create the fields
         otpField.initalizeUI(forFieldType: displayType)
         
